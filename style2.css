@@ -1,0 +1,161 @@
+.main{
+  background-color: white;
+  height: 100px;
+}
+.main ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.main ul li{
+  list-style: none;
+  margin-left:150px;
+  margin-top:1px;
+  font-size:25px;
+}
+a:hover{
+  color: orange;
+  
+}
+#d1{
+    font-size:30px;
+    padding:1%;
+    color: black;
+    margin-left: 20%;
+    
+  }
+  h1{
+    text-align: center;
+}
+ #i2{
+    border-radius:5px;
+    width:350px;
+    height:300px;
+    padding:15px;
+ }
+#f1
+{
+    width:80%;
+    margin-left:10%;
+    border-radius:8%;
+    border: 3px solid rgb(219, 213, 130);
+    background-color: rgb(219, 213, 130);
+}
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  margin-left: 10%;
+  margin-right:10%;
+  
+}
+
+div.scroll-container img {
+  padding: 0px;
+}
+#text.h2
+{
+    font-size: 50px;
+    padding:5px;
+    
+}
+#text.p
+{
+    font-size:22px;
+    padding-left:5px;
+    margin-left: 10%;
+    margin-right:10%;
+
+}
+body{
+    background-color:rgb(222, 235, 239);
+}
+footer{
+    position:relative;
+    background-color:white;
+  }
+  .f2,.f3{
+    display: flex;
+    justify-content: center;
+  }
+  .f2 .ul1{
+    display: inline-block;
+  }
+  .a1:hover{
+    
+    opacity: 0.5;
+  }
+  h5{
+    text-align: center;
+    padding-top: 10px;
+    color:black;
+    font-size: larger;
+    padding-left: 30px;
+    opacity: 0.7;
+  }
+
+  .image{
+      width:15%;
+      padding-left:5%;
+      float: left;
+  }
+  a{
+      text-decoration: none;
+      font-size: 20px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color:black;
+  }
+  a:hover{
+      color: orange;
+      
+  }
+  .a1{
+    color: black;
+  }
+  li{
+      list-style: none;
+  }
+  .navbar{
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  .navbar .links{
+      display:flex;
+      gap:1rem;
+      margin-left: 40%;
+      float: left;
+  }
+  .navbar .links2{
+      display:flex;
+      gap:1rem;
+  }
+  
+@media (max-width:1024px)
+{
+  .main{
+    background-color: white;
+    height: 100px;
+  }
+  .main ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .main ul li{
+    list-style: none;
+    margin-left:60px;
+    margin-top:1px;
+    font-size:25px;
+  }
+  #d1{
+      font-size:30px;
+      padding:1%;
+      color: black;
+      margin-left: 20%;
+      
+    }
+    
+}
+  

@@ -1,0 +1,125 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    background-color:rgb(207, 220, 179);
+    align-items: center;
+  }
+  h2{
+    color: azure;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: larger;
+  }
+  header{
+    background-color:rgb(91, 102, 69);
+  }
+  .c1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  a{
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+  }
+  a:hover{
+    color: orange;
+  }
+  li{
+    list-style: none;
+    font-size: larger;
+  }
+  .c1 .links{
+    display: flex;
+    gap: 5rem;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(14, 13, 13,0.1);
+  }
+  .card{
+    height: 250px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+  }
+  img{
+    height: 250px;
+    width: 250px;
+  }
+  .intro{
+    height: 70px;
+    width: 250px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: relative;
+    background: rgba(44, 42, 42, 0.9);
+    bottom: 70px;
+    color: white;
+    transition: 1s;
+  }
+  h1{
+    margin: 10px;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(213, 248, 248);
+    font-weight: 10px;
+  }
+  p{
+    font-size: 15px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+    color: black;
+  }
+  span{
+    font-weight: bold;
+  }
+  .card:hover h1{
+    visibility:collapse;
+  }
+  .card :hover{
+    cursor: pointer;
+  }
+  .card:hover .intro{
+    height: 200px;
+    bottom: 174px;
+    background:rgba(241, 243, 244, 0.7);
+  }
+  .card:hover p{
+    opacity: 1;
+    visibility: visible;
+  }
+  .card:hover img{
+    transform: scale(1.1) rotate(-5deg);
+    transition: 1s;
+  }
+  span{
+    color: black;
+  }
+  .f1{
+    background-color:rgb(91, 102, 69);
+  }
+  .f2,.f3{
+    display: flex;
+    justify-content: center;
+  }
+  .f2 .ul1{
+    display: inline-block;
+  }
+  .a1:hover{
+    
+    opacity: 0.5;
+  }
+  h5{
+    text-align: center;
+    color:white;
+    font-size: larger;
+    opacity: 0.7;
+  }
